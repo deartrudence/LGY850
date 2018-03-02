@@ -36,6 +36,9 @@ nav{
 .logo {
 	margin: 16px 0; 
 }
+.menu {
+	display: flex;
+}
 .menu ul {
 	display: flex;
 	flex-wrap: wrap;
@@ -48,9 +51,14 @@ nav{
  }
 .menu ul li {
 	margin-left: 29px;
+	display: flex;
+	align-items: center;
 }
 .menu a {
 	color: white;
+}
+.menu a:hover {
+	color: #FF3A7C;
 }
 .wrapper {
 	width: 85%;
@@ -107,6 +115,13 @@ header .buttons a {
 	margin-right: 20px;
 }
 
+header .buttons a:hover {
+	background: white;
+	color: #FE3A7B;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.21);
+}
+
+
 @media (max-width: 500px) { 
 	header .buttons a {
 		margin: 10px 10px;
@@ -117,8 +132,11 @@ header .buttons a {
 	flex-wrap: wrap;
 	margin: 0 auto;
 	line-height: 21px;
-	border-bottom: 2px solid #979797;
-	padding: 80px 0 52px 0;
+	padding: 0px 0 52px 0;
+	width: 100vw;
+	margin: unset;
+	max-width: unset;
+	background: #F7F7F7;
 }
 #about .image {
 	padding: 30px 30px;
@@ -143,9 +161,26 @@ header .buttons a {
 	}
  }
 #about .description {
-	padding: 0 30px;
 	flex-grow: 1;
-  flex-basis: 400px;
+	flex-basis: 400px;
+	max-width: 533px;
+	margin: 0 auto;
+	position: relative;
+}
+.badge {
+	width: 60px;
+	background: #F73677;
+	height: 133px;
+	position: absolute;
+	top: 0;
+	left: -80px;
+}
+#about .description h3 {
+	font-size: 36px;
+	line-height: 41px;
+	color: #F73677;
+	width: 50%;
+	font-weight: normal;
 }
 #videos {
 
@@ -203,6 +238,7 @@ header .buttons a {
 	line-height: 19px;
 	text-align: left;
 	width: 100%;
+	font-weight: 300;
 }
 .video h3 {
 	margin: 10px 0;
@@ -242,6 +278,11 @@ header .buttons a {
 	font-size: 20px;
 	line-height: 26px;
 }
+.register-now a:hover {
+	background: white;
+	color: #FE3A7B;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.21);
+}
 
 @media (max-width: 500px) { 
 	.register-now a {
@@ -273,10 +314,10 @@ header .buttons a {
 	height: 195px;
 	/* border: 1px solid #bada55; */
 	margin: 15px;
-	box-shadow: 0 -10px 50px 0 rgba(0,0,0,0.05), 0 50px 50px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 6px 50px 0 rgba(0,0,0,0.05), 0 6px 50px 0 rgba(0,0,0,0.1);
 	transition: 0.3s;
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 20px;
+	font-weight: 300;
 	line-height: 27px;
 	text-align: center;
 	padding: 16px;
@@ -299,7 +340,58 @@ svg g path, #Fill-12, #Fill-11, #Fill-9{
 	fill: white;
 }
 
-
+#campaign {
+	background-color: #1A384D;
+	color: white;
+	width: 100vw;
+	margin: unset;
+	max-width: unset;
+	padding: 57px 0 52px 0;
+	font-weight: normal;
+}
+#campaign h2 {
+	margin: 0;
+	font-weight: normal;
+	margin-bottom: 26px;
+}
+#campaign p {
+	margin: 0;
+	font-size: 20px;
+}
+#campaign form {
+	max-width: 395px;
+	margin: 0 auto;
+}
+#campaign label {
+	width: 86px;
+	display: inline-block;
+	font-weight: 300;
+}
+#campaign input {
+	width: 304px;
+	padding: 6px;
+	margin-bottom: 25px;
+}
+#campaign .submit-button {
+	text-align: right;
+}
+#campaign button{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 21px;
+	background: linear-gradient(0deg, #CA2059 0%, #FF3A7C 100%);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.21);
+	border: none;
+	padding: 12px 42px;
+	margin-top: 52px;
+	cursor: pointer;
+}
+#campaign button:hover {
+	background: white;
+	color: #FE3A7B;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.21);
+}
 footer {
 	background: black;
 	padding: 25px;
