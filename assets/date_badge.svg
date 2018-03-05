@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="139px" viewBox="0 0 59 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>85B40E86-A76C-4B8C-A815-560B35922829</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E9306E" offset="0%"></stop>
+            <stop stop-color="#CD225B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="850_MainPage" transform="translate(-198.000000, -500.000000)">
+            <g id="Date-Badge" transform="translate(198.000000, 500.000000)">
+                <polygon id="Rectangle-3" fill="url(#linearGradient-1)" points="0 0 59 0 59 110.345719 29.5 139 0 110.345719"></polygon>
+                <text id="MAR" font-family="Roboto-Bold, Roboto" font-size="12" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="17" y="72">MAR</tspan>
+                </text>
+                <text id="27" font-family="Roboto-Bold, Roboto" font-size="32" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="12" y="106">27</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

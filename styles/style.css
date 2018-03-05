@@ -66,6 +66,11 @@ nav{
 	margin: 0 auto;
 	/* border: 1px solid #bada55; */
 }
+@media (max-width: 500px){
+	.wrapper {
+		width: 95%;
+	}
+}
 
 header {
 	padding-top: 52px;
@@ -168,12 +173,9 @@ header .buttons a:hover {
 	position: relative;
 }
 .badge {
-	width: 60px;
-	background: #F73677;
-	height: 133px;
 	position: absolute;
 	top: 0;
-	left: -80px;
+	left: -85px;
 }
 #about .description h3 {
 	font-size: 36px;
@@ -181,6 +183,10 @@ header .buttons a:hover {
 	color: #F73677;
 	width: 50%;
 	font-weight: normal;
+}
+#about .description p {
+	font-size: 18px;
+	line-height: 24px;
 }
 #videos {
 
@@ -286,7 +292,7 @@ header .buttons a:hover {
 
 @media (max-width: 500px) { 
 	.register-now a {
-		font-size: 16px;
+		font-size: 14px;
 	}
  }
 
@@ -348,6 +354,7 @@ svg g path, #Fill-12, #Fill-11, #Fill-9{
 	max-width: unset;
 	padding: 57px 0 52px 0;
 	font-weight: normal;
+	margin-top: 132px;
 }
 #campaign h2 {
 	margin: 0;
@@ -361,6 +368,11 @@ svg g path, #Fill-12, #Fill-11, #Fill-9{
 #campaign form {
 	max-width: 395px;
 	margin: 0 auto;
+}
+@media (max-width: 500px){
+	#campaign form {
+		max-width: 305px;
+	}
 }
 #campaign label {
 	width: 86px;
@@ -397,4 +409,12 @@ footer {
 	padding: 25px;
 	color: white;
 	text-align: right;
+}
+#campaign label.wide {
+	width: 400px;
+}
+@media (max-width: 500px){
+	#campaign label.wide {
+		width: 320px;
+	}
 }
